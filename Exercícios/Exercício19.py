@@ -1,6 +1,6 @@
-número = int(input('Me diga qualquer número: '))
-resultado = número % 2
+numero = int(input('Me diga qualquer numero: '))
+resultado = numero %2
 if resultado == 0:
-    print('O número {} é PAR'.format(número))
+    print('\033[33mEsse numero {} é PAR'.format(numero))
 else:
-    print('O número {} é ÍMPAR'.format(número))
+    print('\033[34mEsse numero {} é ÍMPAR'.format(numero))

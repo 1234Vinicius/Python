@@ -1,2 +1,2 @@
-nome = str(input('Digite seu nome completo? ')).strip()
-print('Seu nome comeca com Silva? {}'.format('Silva' in nome))
+nome = str(input('Digite seu nome completo: '))
+print('Seu nome tem Cordeiro? {}'.format('Cordeiro' in nome))
